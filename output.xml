@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.8.10 on linux)" generated="20240830 11:50:59.541" rpa="false" schemaversion="4">
+<suite id="s1" name="Main file" source="/home/vvdn13346/Downloads/testcheck4-master/TestCases/Main_file.robot">
+<kw name="Open My Browser" library="inital_setup" type="SETUP">
+<kw name="Setup Chrome Driver" library="setup">
+<msg timestamp="20240830 11:50:59.724" level="INFO">====== WebDriver manager ======</msg>
+<msg timestamp="20240830 11:50:59.753" level="INFO">Current google-chrome version is 128.0.6613</msg>
+<msg timestamp="20240830 11:50:59.754" level="INFO">Get LATEST chromedriver version for 128.0.6613 google-chrome</msg>
+<msg timestamp="20240830 11:51:00.278" level="FAIL">ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</msg>
+<status status="FAIL" starttime="20240830 11:50:59.724" endtime="20240830 11:51:00.280"/>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20240830 11:51:00.280" endtime="20240830 11:51:00.280"/>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20240830 11:51:00.281" endtime="20240830 11:51:00.281"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<arg>${verify_login_page}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20240830 11:51:00.281" endtime="20240830 11:51:00.281"/>
+</kw>
+<status status="FAIL" starttime="20240830 11:50:59.724" endtime="20240830 11:51:00.282"/>
+</kw>
+<test id="s1-t1" name="Tc_1 Forgot password test" line="11">
+<status status="FAIL" starttime="20240830 11:51:00.282" endtime="20240830 11:51:00.282">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t2" name="Tc_2 Forgot passowrd page test" line="14">
+<status status="FAIL" starttime="20240830 11:51:00.283" endtime="20240830 11:51:00.284">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t3" name="Tc_3 Login" line="17">
+<status status="FAIL" starttime="20240830 11:51:00.285" endtime="20240830 11:51:00.286">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t4" name="Tc_4 HomepageDashbaord_Validation" line="21">
+<status status="FAIL" starttime="20240830 11:51:00.287" endtime="20240830 11:51:00.288">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t5" name="Tc_5 Verify all icons in side nevigation panel" line="34">
+<status status="FAIL" starttime="20240830 11:51:00.288" endtime="20240830 11:51:00.289">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t6" name="Tc_7 Verify Device profile" line="46">
+<status status="FAIL" starttime="20240830 11:51:00.290" endtime="20240830 11:51:00.291">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<test id="s1-t7" name="Tc_ Logout_feature testing and verification" line="59">
+<status status="FAIL" starttime="20240830 11:51:00.291" endtime="20240830 11:51:00.292">Parent suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</test>
+<kw name="Closing the browser" library="inital_setup" type="TEARDOWN">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240830 11:51:00.293" endtime="20240830 11:51:00.293"/>
+</kw>
+<status status="PASS" starttime="20240830 11:51:00.292" endtime="20240830 11:51:00.294"/>
+</kw>
+<status status="FAIL" starttime="20240830 11:50:59.543" endtime="20240830 11:51:00.294">Suite setup failed:
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128.0.6613</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="7" skip="0" id="s1" name="Main file">Main file</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
